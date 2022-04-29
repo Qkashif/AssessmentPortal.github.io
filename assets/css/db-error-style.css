@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: darkgray;
+}
+
+.overview-card .card {
+  margin: 3rem auto;
+  text-align: center;
+  width: calc(100% / 2);
+  background: #fff;
+  padding: 15px 14px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+
+.overview-card .card-topic{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 3rem;
+  background-color: #d3544b;
+}
+
+.overview-card .card-subtopic{
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.overview-card p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.overview-card .return {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  background-color: #23527c;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 1rem auto;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+.overview-card .return:hover{
+  border: .1rem solid #d3544b;
+  background-color: #fff;
+  color: #d3544b;
+}
+
+.overview-card .sad-emoji {
+  font-size: 5rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
