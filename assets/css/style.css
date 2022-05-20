@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
-/*--orang:#d3544b;
---blue:#1d375c;
---light-blue:#8db0e1;*/
-
-/*green: #0eb582;
-light-green: #f0fdfa;
-light-color: #777;
-light-white: #eee;
-black: #444;
-white:#fff;
-border:.1rem solid #0eb582;
-box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);*/
 
 
 *{
@@ -44,8 +32,7 @@ box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);*/
     --tran-05: all 0.3s ease;
 }
 body{
-    background: red;
-    /* background: var(--off-white); */
+    background: var(--off-white);
    
 }
 
@@ -67,9 +54,7 @@ html::-webkit-scrollbar-thumb {
 p,h1,h2,h3,h4,h5,h6{
     text-transform: capitalize!important;
 }
-.message{
-    background: var(--orange);
-}
+
 
 
 
@@ -1211,6 +1196,27 @@ header ul li a:hover, header ul li i:hover{
 /*index page end*/
 
 
+/* chat system start */
+.discuss_board .discuss_board_body .ingoing{
+    border-radius: 1rem 1rem 1rem 1rem;
+
+}
+.discuss_board .discuss_board_body .outgoing{
+    background: var(--blue)!important;
+    color: var(--white)!important;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.discuss_board .discuss_board_body .outgoing .student_name{
+    color: var(--white);
+}
+.discuss_board .discuss_board_body .outgoing .student_msg{
+    color: var(--white);
+    padding: .2rem;
+}
+
+/* chat system end */
+
+
 /* Course details start */
 
 .course_header1{
@@ -1762,7 +1768,12 @@ option:hover{
 
 
 }
-
+.message{
+    background: var(--orange);
+    font-size: 1.4rem;
+    color: var(--white);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
 .custom-select:active, .custom-select:focus {
   outline: none;
   -webkit-box-shadow: none;

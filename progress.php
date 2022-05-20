@@ -34,7 +34,7 @@
         <li><div class="bar" data-percentage="50"></div><span class="text">subject 01</span></li>
         <li><div class="bar" data-percentage="30"></div><span>subject 02</span></li>
         <li><div class="bar" data-percentage="60"></div><span>subject 03</span></li>
-        <li><div class="bar" data-percentage="90"></div><span>subject 04</span></li>
+        <li><div class="bar" data-percentage="2"></div><span>subject 04</span></li>
         <li><div class="bar" data-percentage="80"></div><span>subject 05</span></li>
       </ul>
     </div>  

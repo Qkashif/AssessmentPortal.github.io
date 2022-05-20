@@ -30,7 +30,7 @@ if(isset($_POST['login'])) {
  	 $_SESSION['user_status']  = $row['user_status'];
  	 $_SESSION['user_control'] = $row['user_control'];
 
- 	header("location: index.php");
+ 	header("location: home.php");
  }
  else{
  	$message = "<div class='message my-2 py-3 text-center'>Please Check Your Email and Password.</div>";

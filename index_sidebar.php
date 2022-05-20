@@ -36,7 +36,8 @@ if (empty($_SESSION["user_id"])) {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha512-sJa5KWq3F99QOeijUOm9O+BgDgVtzrWBBagZtjlW7F3I47NO1OaNJvbut+9KOPmjNr4Wb3blU4vQiQdi+Zk6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>assessment portal</title>
         <link rel="icon" href="assets/images/logo.png">
-        <link rel="stylesheet" href="assets/css/theme_style.css">
+
+        <link rel="stylesheet" href="assets/css/style.css">
         <!-- <link rel="stylesheet" href="assets/css/style1.sdcss"> -->
 
 
